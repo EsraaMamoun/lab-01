@@ -9,18 +9,6 @@ ol, ul {
 	list-style: none;
 }
 
-
-
-aside{
-    width: 239px;
-    height: 250px;
-    text-align: center;
-    line-height: 250px;
-    float: left;
-    background-color: rgb(168, 163, 163);
-    border: 0.5px solid rgb(75, 68, 68);
-}
-
 @media (min-width: 768px) {
     body{
         width: 80%;
