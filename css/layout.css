@@ -1,0 +1,67 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+footer div{
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+}
+div{
+    width: 478px;
+    text-align: center;
+    background-color: rgb(168, 163, 163);
+    border: 1px solid rgb(75, 68, 68);
+}
+
+header div{
+    height: 75px;
+    line-height: 75px;
+}
+
+@media (min-width: 768px) {
+    body{
+        width: 80%;
+        margin: 0px auto;
+    }
+    header div{
+        width: 959px;
+        height: 99px;
+        line-height: 99px;
+        border: 1px solid rgb(7, 36, 100);
+    }
+    aside{
+        width: 189px;
+        height: 249px;
+        text-align: center;
+        line-height: 249px;
+        background-color: rgb(90, 109, 170);
+        display: inline-block;
+        border: 0.5px solid rgb(7, 36, 100);
+    }
+  
+    footer div{
+        width: 758px;
+        height: 148px;
+        line-height: 148px;
+        display: inline-block;
+        border: 1px solid rgb(7, 36, 100);
+    }
+}
