@@ -9,14 +9,24 @@ ol, ul {
 	list-style: none;
 }
 
+div{
+    width: 478px;
+    text-align: center;
+    background-color: rgb(168, 163, 163);
+    border: 1px solid rgb(75, 68, 68);
+}
+
 @media (min-width: 768px) {
-    body{
-        width: 80%;
-        margin: 0px auto;
-    }
+    
     div{
         text-align: center;
         background-color: rgb(90, 109, 170);
     }
-    
+    header div{
+        width: 959px;
+        height: 99px;
+        line-height: 99px;
+        border: 1px solid rgb(7, 36, 100);
+    }
+  
 }

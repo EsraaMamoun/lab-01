@@ -18,45 +18,40 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+body{
+    padding: 40px 0px 40px 0px;
+}
+aside{
+    width: 239px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    float: left;
+    background-color: rgb(168, 163, 163);
+    border: 0.5px solid rgb(75, 68, 68);
+}
+
 
 footer div{
     clear: both;
     height: 80px;
     line-height: 80px;
-}
-div{
-    width: 478px;
-    text-align: center;
-    background-color: rgb(168, 163, 163);
     border: 1px solid rgb(75, 68, 68);
 }
 
 header div{
     height: 75px;
     line-height: 75px;
+    border: 1px solid rgb(75, 68, 68);
 }
 
 @media (min-width: 768px) {
     body{
         width: 80%;
         margin: 0px auto;
+        padding: 60px 0px 60px 0px;
     }
-    header div{
-        width: 959px;
-        height: 99px;
-        line-height: 99px;
-        border: 1px solid rgb(7, 36, 100);
-    }
-    aside{
-        width: 189px;
-        height: 249px;
-        text-align: center;
-        line-height: 249px;
-        background-color: rgb(90, 109, 170);
-        display: inline-block;
-        border: 0.5px solid rgb(7, 36, 100);
-    }
-  
+   
     footer div{
         width: 758px;
         height: 148px;
