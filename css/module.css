@@ -10,24 +10,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-aside{
-    width: 239px;
-    height: 250px;
-    text-align: center;
-    line-height: 250px;
-    float: left;
-    background-color: rgb(168, 163, 163);
-    border: 0.5px solid rgb(75, 68, 68);
-}
-
 
 #b{
     height: 150px;
     line-height: 150px;
+    border: 1px solid rgb(75, 68, 68);
 }
 .cd{
     height: 125px;
     line-height: 125px;
+    border: 1px solid rgb(75, 68, 68);
 }
 
 @media (min-width: 768px) {
@@ -38,6 +30,16 @@ aside{
         float: left;
         border: 1px solid rgb(7, 36, 100);
     }
+    aside{
+        width: 189px;
+        height: 249px;
+        text-align: center;
+        line-height: 249px;
+        background-color: rgb(90, 109, 170);
+        display: inline-block;
+        border: 0.5px solid rgb(7, 36, 100);
+    }
+
     .cd{
         width: 378px;
         height: 199px;
@@ -45,4 +47,5 @@ aside{
         float: left;
         border: 1px solid rgb(7, 36, 100);
     }
+ 
 }
