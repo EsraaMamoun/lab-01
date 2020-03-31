@@ -18,6 +18,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+@media (max-width: 960px) {
+
 body{
     padding: 40px 0px 40px 0px;
 }
@@ -44,7 +46,7 @@ header div{
     line-height: 75px;
     border: 1px solid rgb(75, 68, 68);
 }
-
+}
 @media (min-width: 768px) {
     body{
         width: 80%;
