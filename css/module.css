@@ -17,7 +17,7 @@ aside{
 }
 #sec2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 240px 240px;
 }
 .cd{
     height: 125px;

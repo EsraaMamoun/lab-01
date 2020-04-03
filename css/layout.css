@@ -1,7 +1,9 @@
 @media (max-width: 960px) {
 
 body{
-    padding: 40px 0px 40px 0px;
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
 }
 
 #footer{
@@ -14,7 +16,7 @@ body{
 }
 @media (min-width: 768px) {
     body{
-        width: 80%;
+        width: 70%;
         margin: 0px auto;
         padding: 60px 0px 60px 0px;
     }
